@@ -11,7 +11,9 @@ const machines = [
   { id: "HD-03", status: "Maintenance", catatan: "Kalibrasi sampai 13.00" },
   { id: "HD-04", status: "Aktif", catatan: "Siap digunakan" },
   { id: "HD-05", status: "Aktif", catatan: "Siap digunakan" },
-  { id: "HD-06", status: "Aktif", catatan: "Siap digunakan" }
+  { id: "HD-06", status: "Aktif", catatan: "Siap digunakan" },
+  { id: "HD-07", status: "Aktif", catatan: "Siap digunakan" },
+  { id: "HD-08", status: "Aktif", catatan: "Siap digunakan" }
 ];
 
 // 2) DATA JADWAL PASIEN SINTETIS
@@ -33,7 +35,12 @@ const schedules = [
   { patient: "P013", session: "Siang", machine: "HD-05", start: "12:00", end: "16:00", status: "Terjadwal",   note: "-" },
   { patient: "P014", session: "Siang", machine: "HD-06", start: "12:00", end: "16:00", status: "Terjadwal",   note: "-" },
   { patient: "P015", session: "Siang", machine: "HD-01", start: "12:00", end: "16:00", status: "Batal",       note: "Konfirmasi pembatalan pasien" },
-  { patient: "P016", session: "Siang", machine: "HD-05", start: "12:00", end: "16:00", status: "Terlambat",  note: "Belum hadir sesuai jadwal" }
+  { patient: "P016", session: "Siang", machine: "HD-05", start: "12:00", end: "16:00", status: "Terlambat",  note: "Belum hadir sesuai jadwal" },
+  { patient: "P017", session: "Siang", machine: "HD-06", start: "13:00", end: "17:00", status: "Selesei",  note: "-" },
+  { patient: "P018", session: "Siang", machine: "HD-07", start: "13:00", end: "17:00", status: "Terlambat",  note: "Belum hadir sesuai jadwal" },
+  { patient: "P019", session: "Siang", machine: "HD-07", start: "12:00", end: "16:00", status: "Batal",  note: "Konfirmasi pembatalan pasien" },
+  { patient: "P020", session: "Siang", machine: "HD-08", start: "12:00", end: "16:00", status: "Terlambat",  note: "Belum hadir sesuai jadwal" }
+
 ];
 
 // Kapasitas contoh per sesi.
