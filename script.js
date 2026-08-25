@@ -45,7 +45,7 @@ const schedules = [
 
 // Kapasitas contoh per sesi.
 // Silakan kelompok memodifikasi sesuai skenario masing-masing.
-const SESSION_CAPACITY = 8;
+const SESSION_CAPACITY = 10;
 
 // DOM
 const scheduleBody = document.getElementById("scheduleBody");
